@@ -46,7 +46,7 @@ input_values = [
 (
     ["2", "10.0", "12.0","15.0"],
     ["","","","",
-    "area = 59.81168364124187"],
+    "area = 59.81"],
     '''
     opcion 2,  revisa que si leiste los valores como flotantes,
     revisa si la funcion regresa valor
@@ -55,7 +55,7 @@ input_values = [
 (
     ["2", "10", "20","25"],
     ["","","","",
-    "area = 94.99177595981665"],
+    "area = 94.99"],
     '''
     revisa que si leiste los valores como flotantes,
     revisa si la funcion regresa valor

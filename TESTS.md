@@ -1,5 +1,5 @@
 ![Tec de Monterrey](images/logotecmty.png)
-# Ejercicios con funciones
+# 
 
 ## Configuración de pruebas con **pytest**
 
@@ -8,8 +8,6 @@
 ```
 sudo -H pip3 install pytest
 ```
-
-
 
 - ## 04 Tienda Sillas
     ### Run command

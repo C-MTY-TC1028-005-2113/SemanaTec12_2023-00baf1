@@ -24,6 +24,7 @@ def main():
     ['Sofia', 'ITC',  'MX', '4000', '25/07/10', '90'],
     ['Ada', 'ITC', 'MX', '1000', '06/11/16', '99']]
 
+    # selecciona la matriz que va a utilizar
     matriz = int(input())
     if matriz == 1 :
         m = series.copy( )
@@ -34,11 +35,11 @@ def main():
     opcion = int(input())
 
 
-        
 
-    # opcion 3 - manesajes de salida únicamente para la opcion 3
-    print("Promedio 1:", round(promedio, 2))
-    print("Promedio 2:", round(tiempo_promedio, 2))
+
+        # opcion 3 - manesajes de salida únicamente para la opcion 3
+        print("Promedio 1:", round(promedio, 2))
+        print("Promedio 2:", round(tiempo_promedio, 2))
 
 if __name__=='__main__':
     main()
