@@ -1,7 +1,4 @@
 ![Tec de Monterrey](images/logotecmty.png)
-# Ejercicios con funciones
-
-
-- 04 Tienda Sillas.     __corresponde a: TIENDA DE LAPTOPS
-- 05 Binario - Decimal. __corresponde a: REPORTE A PARTIR DE MATRICES
-
+# Te deseo mucho éxito!!
+# Lee muy bien lo que se te pide
+# aplica el estándar de codificación
