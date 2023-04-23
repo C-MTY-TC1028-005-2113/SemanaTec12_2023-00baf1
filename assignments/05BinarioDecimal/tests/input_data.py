@@ -58,7 +58,7 @@ input_values = [
 "IFI 2",
 "IRS 1"],
 "Debe salir: lo que te indica el caso de prueba5"
-,
+),
 (
  [2,3],
  ["","",
