@@ -10,7 +10,7 @@ input_values = [
 (
     ["1", "3", "0","-12"],
     ["","","","",
-     "x1=-2 x2=2"],
+     "x1=-2.0 x2=2.0"],
     '''
     Revisa si pusiste todos los ( ) en la fórmula general
     Revisa si hiciste el import math
