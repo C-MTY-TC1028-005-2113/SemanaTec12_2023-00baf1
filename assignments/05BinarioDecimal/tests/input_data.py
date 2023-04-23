@@ -7,57 +7,63 @@
 
 input_values = [
     # Test case 1
-    (
-            [1],
-        ["",
-"1 I Am Not an Animal",
-"2 Chernobyl",
-"3 Rick and Morty",
-"4 Breaking Bad",
-"5 Hunter x Hunter",
-"6 Sherlock",
-"7 Planet Earth II",
-"8 Peaky Blinders",
-"9 Stranger Things",
-"10 DEATH NOTE",
-"11 Avatar: The Last Airbender",
-"12 The Twilight Zone",
-"13 The Wire",
-"14 Gravity Falls",
-"15 The Sopranos",
-"16 Neon Genesis Evangelion",
-"17 The Marvelous Mrs. Maisel",
-"18 Young Justice",
-"19 Band of Brothers",
-"20 Futurama",
-"Animation 9",
-"Drama 6",
-"Crime 3",
-"Documentary 1",
-"Comedy 1",
-"Total: 20",
-"Calificacion Promedio: 8.38",
-"Tiempo Promedio: 893.2"],
+
+(
+[1, 1],
+["","",
+"1 I Am Not an Animal Animation",
+"2 Chernobyl Drama",
+"3 Rick and Morty Animation",
+"4 Breaking Bad Drama",
+"5 Hunter x Hunter Animation",
+"6 Sherlock Crime",
+"7 Planet Earth II Documentary"],
 "Debe salir: lo que te indica el caso de prueba1"
-    ),
+),
+(
+[1, 2],
+["","",
+"Animation 3",
+"Drama 2",
+"Crime 1",
+"Documentary 1",
+],
+"Debe salir: lo que te indica el caso de prueba2"
+),
+(
+[1, 3],
+["","",
+"Promedio 1: 8.64",
+"Promedio 2: 1183.43"],
+"Debe salir: lo que te indica el caso de prueba3"
+),
  # Test case 2
-    (
- [2],
- ["",
-"1 Josu",
-"2 Cristian",
-"3 Ricky",
-"4 Beatriz",
-"5 Hugo",
-"6 Silvia",
-"7 Pedro",
+(
+ [2, 1],
+ ["","",
+"1 Jose ITC",
+"2 Nodal INE",
+"3 Andres IFI",
+"4 Ana Victoria IRS",
+"5 Alexa IFI",
+"6 Sofia ITC",
+"7 Ada ITC"],
+"Debe salir: lo que te indica el caso de prueba4"
+),
+(
+ [2,2],
+ ["","",
 "ITC 3",
 "INE 1",
 "IFI 2",
-"IRS 1",
-"Total: 7",
-"Calificacion Promedio: 88.71",
-"Tiempo Promedio: 2514.29"],
-"Debe salir:"
-    )
+"IRS 1"],
+"Debe salir: lo que te indica el caso de prueba5"
+,
+(
+ [2,3],
+ ["","",
+"Promedio 1: 112.57",
+"Promedio 2: 2514.29"],
+"Debe salir: lo que te indica el caso de prueba6"
+)
 ]

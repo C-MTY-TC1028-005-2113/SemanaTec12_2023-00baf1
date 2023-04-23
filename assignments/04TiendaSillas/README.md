@@ -1,5 +1,5 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
-# Tienda de Laptops
+
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama `exercise.py` y que contiene el siguiente código:
 
@@ -14,32 +14,6 @@ La línea `#escribe tu código abajo de esta línea` es un comentario, el progra
 Casos de prueba
 ```
 
-Tipo de laptop i5, i7, i9: iii9
-Tipo de cliente F, R, N: F
-Cantidad de laptops: 10
-Error en tipo de laptop
-
-
-Tipo de laptop i5, i7, i9: i9
-Tipo de cliente F, R, N: Tec
-Cantidad de laptops: 10
-Error en tipo de cliente
-
-
-Tipo de laptop i5, i7, i9: i7
-Tipo de cliente F, R, N: R
-Cantidad de laptops: 10
-Total sin dcto: 95,000
-Descuento: 23,750
-Total a pagar: 71,250
-
-
-Tipo de laptop i5, i7, i9: i7
-Tipo de cliente F, R, N: f
-Cantidad de laptops: 10
-Total sin dcto: 95,000
-Descuento: 28,500
-Total a pagar: 66,500
 
 
 ```

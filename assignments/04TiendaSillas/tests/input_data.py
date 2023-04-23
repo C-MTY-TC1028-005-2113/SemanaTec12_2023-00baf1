@@ -7,148 +7,71 @@
 
 input_values = [
     # Test case 1
-    (
-        ["iii9", "F", "10"],
-        ["Tipo de laptop i5, i7, i9: ",
-         "Tipo de cliente F, R, N: ",
-          "Cantidad de laptops: ",
-        "Error en tipo de laptop"],
-        '''Debe salir:
-        Error en tipo de laptop
-        '''
-    ),
-    (
-        ["i9", "Tec", "10"],
-        ["Tipo de laptop i5, i7, i9: ",
-         "Tipo de cliente F, R, N: ",
-          "Cantidad de laptops: ",
-        "Error en tipo de cliente"],
-        '''Debe salir:
-        Error en tipo de cliente
-        '''
-    ),
-    (
-    ["i7", "R", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-     "Tipo de cliente F, R, N: ",
-      "Cantidad de laptops: ",
-    "Total sin dcto: 95,000",
-    "Descuento: 23,750",
-    "Total a pagar: 71,250"],
-    '''Debe salir:
-    Total sin dcto: 95,000
-    Descuento: 23,750
-    Total a pagar: 71,250
+(
+    ["1", "3", "0","-12"],
+    ["","","","",
+     "x1=-2 x2=2"],
     '''
-    ),
-    (
-    ["i7", "f", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 95,000",
-    "Descuento: 28,500",
-    "Total a pagar: 66,500"],
-    '''Debe salir:
-    Total sin dcto: 95,000
-    Descuento: 28,500
-    Total a pagar: 66,500
+    Revisa si pusiste todos los ( ) en la fórmula general
+    Revisa si hiciste el import math
+    Revisa si desplegaste las raices dentro de la función
     '''
-    ),
-
-    (
-    ["i7", "n", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 95,000",
-    "Descuento: 9,500",
-    "Total a pagar: 85,500"
-    ],
-    '''Debe salir:
-    Total sin dcto: 95,000
-    Descuento: 9,500
-    Total a pagar: 85,500
+),
+(   ["1", "1", "-2","-1"],
+    ["","","","",
+     "x1=-0.41421356237309515 x2=2.414213562373095"],
     '''
-    ),
-
-    (
-    ["i7", "R", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 95,000",
-    "Descuento: 23,750",
-    "Total a pagar: 71,250"
-    ],
-    '''Debe salir:
-    Total sin dcto: 95,000
-    Descuento: 23,750
-    Total a pagar: 71,250
+    Revisa si pusiste todos los ( ) en la fórmula general
+    Revisa si hiciste el import math
+    Revisa si desplegaste las raices dentro de la función
     '''
-    ),
-
-    (
-    ["i5", "f", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 75,000",
-    "Descuento: 22,500",
-    "Total a pagar: 52,500"
-
-    ],
-    '''Debe salir:
-    Total sin dcto: 75,000
-    Descuento: 22,500
-    Total a pagar: 52,500
+),
+(   ["1", "1", "1","2"],
+    ["","","","",
+     "None"],
     '''
-    ),
-    (
-    ["i9", "f", "19"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 218,500",
-    "Descuento: 65,550",
-    "Total a pagar: 152,950"
-    ],
-    '''Debe salir:
-    Total sin dcto: 218,500
-    Descuento: 65,550
-    Total a pagar: 152,950
+    Revisa si revisaste que el determinante sea positivo
+    Revisa si hiciste el import math
+    Revisa si desplegaste las raices dentro de la función
     '''
-    ),
-    (
-    ["i9", "n", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 115,000",
-    "Descuento: 11,500",
-    "Total a pagar: 103,500"
-    ],
-    '''Debe salir:
-    Total sin dcto: 115,000
-    Descuento: 11,500
-    Total a pagar: 103,500
+),
+(   ["2", "3", "25","26"],
+    ["","","","",
+     "area = 36.0"],
     '''
-    ),
-
-    (
-    ["i9", "r", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 115,000",
-    "Descuento: 28,750",
-    "Total a pagar: 86,250"
-    ],
-    '''Debe salir:
-    Total sin dcto: 115,000
-    Descuento: 28,750
-    Total a pagar: 86,250
-
+    opcion 2,  revisa que si leiste los valores como flotantes,
+    revisa si la funcion regresa valor
+    '''
+),
+(
+    ["2", "10.0", "12.0","15.0"],
+    ["","","","",
+    "area = 59.81168364124187"],
+    '''
+    opcion 2,  revisa que si leiste los valores como flotantes,
+    revisa si la funcion regresa valor
+    '''
+),
+(
+    ["2", "10", "20","25"],
+    ["","","","",
+    "area = 94.99177595981665"],
+    '''
+    revisa que si leiste los valores como flotantes,
+    revisa si la funcion regresa valor
+    '''
+),
+(   ["4"],
+    [""],
+    '''
+    No debe desplegar nada el programa
+    '''
+),
+(
+    ["-1"],
+    [""],
+    '''
+    No debe desplegar nada el programa
     '''
     )
 
