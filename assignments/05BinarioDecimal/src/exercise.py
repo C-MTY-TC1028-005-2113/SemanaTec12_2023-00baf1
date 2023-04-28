@@ -1,12 +1,13 @@
 """
+
 Nombre:                                  Matricula:
-Carrera:                                 Fecha:
+
+Fecha:                                 Carrera:
 
 """
 
 
 def main():
-
     series = [['I Am Not an Animal', 'Animation',  'GB', '349', '10/05/04', '9.5'],
     ['Chernobyl', 'Drama',  'US', '595', '06/05/19', '8.5'],
     ['Rick and Morty', 'Animation',  'US', '1395', '02/12/13', '8.5'],
@@ -14,7 +15,6 @@ def main():
     ['Hunter x Hunter', 'Animation',  'JP', '152', '02/10/11', '8.5'],
     ['Sherlock', 'Crime',  'GB', '1885', '25/07/10', '8.5'],
     ['Planet Earth II', 'Documentary',  'GB', '348', '06/11/16', '8.5']]
-
 
     alumnos =  [ ['Jose', 'ITC', 'MX', '300', '10/05/04', '99'],
     ['Nodal', 'INE', 'US', '500', '06/05/19', '200'],
@@ -24,22 +24,32 @@ def main():
     ['Sofia', 'ITC',  'MX', '4000', '25/07/10', '90'],
     ['Ada', 'ITC', 'MX', '1000', '06/11/16', '99']]
 
-    # selecciona la matriz que va a utilizar
-    matriz = int(input())
-    if matriz == 1 :
-        m = series.copy( )
+    # Leer  la matriz que va a utilizar
+    m = int(input())
+    
+    # Selecciona la matriz que va a usar
+    if m == 1 :
+        matriz = series.copy( )
     else:
-        m = alumnos.copy( )
+        matriz = alumnos.copy( )
 
-    # leer la opcion que va a calcular y desplegar
+    # leer la opcion que va a calcular  y/o desplegar
     opcion = int(input())
 
+    # Añade las instrucciones de cada opcion, borra el pass
+    if opcion == 1:
+        pass
+        
 
-
-
-        # opcion 3 - manesajes de salida únicamente para la opcion 3
+    elif opcion == 2:
+        pass
+        
+    elif opcion == 3:
+        pass
+    
         print("Promedio 1:", round(promedio, 2))
-        print("Promedio 2:", round(tiempo_promedio, 2))
+        print("Promedio 2:", round(promedio_minutos, 2))
+
 
 if __name__=='__main__':
     main()
