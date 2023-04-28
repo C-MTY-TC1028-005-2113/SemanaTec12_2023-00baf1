@@ -1,17 +1,18 @@
 """
-Nombre:                                  Matricula:
-Carrera:                                 Fecha:
 
-Instrucciones:
-Diseña y  códifica un programa en Python con las siguientes 3 funciones
-con lo que se te indica dentro de cada una de ellas
+Nombre:                                  Matricula:
+
+Fecha:                                   Carrera:
+
 """
 
 def calcula_raices(a,b,c):
     pass
 
+
 def calcula_area_triangulo(a, b, c):
     return area
+
 
 def main():
     opcion = int(input())
